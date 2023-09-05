@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+}
+
+.sub-topics {
+    color: gold;
+}
+
+#fav-movies li a{
+    text-decoration:none
+
+}
+#fav-movies li a:hover {
+    text-decoration: underline;
+}
+
+#description{
+    font-family: Garamond, "Times New Roman", serif;
+    font-size: 1vw; /* usedtoenable/disableboldstyle*/ 
+    font-weight: bold; /* usedtoenable/disableitalicstyle*/ 
+    font-style: italic;
+}
+
+p {
+    font-family: New Century Schoolbook;
+    font-size: 1.3em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  p::first-letter {
+    color: #483D8B;
+    float: left;
+    font-size: 2em;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: 0 .1em 0 0;
+    line-height: 0.85;
+  }
