@@ -1,12 +1,15 @@
 header {
     display: flex;
-    align-items: center; /* Vertical alignment to center */
-    justify-content: space-between; /* Horizontal alignment to left and right */
-    padding: 10px; /* Optional padding for spacing */
+    align-items: center;
+    /* Vertical alignment to center */
+    justify-content: space-between;
+    /* Horizontal alignment to left and right */
+    padding: 10px;
+    /* Optional padding for spacing */
     border-bottom: 1px solid gold;
 }
 
-header #main{
+header #main {
     font-size: 20px;
 }
 
@@ -21,7 +24,8 @@ header #main{
 
 .section-table {
     width: 100%;
-    overflow-x: auto; /* Enable horizontal scrolling if content overflows */
+    overflow-x: auto;
+    /* Enable horizontal scrolling if content overflows */
 }
 
 .section-table table {
@@ -34,18 +38,24 @@ table {
     width: 100%;
 }
 
-th, td {
-    border: 1px solid #000; /* Border around table cells */
-    padding: 8px; /* Add padding to the table cells for spacing */
-    text-align: left; /* Adjust text alignment as needed */
+th,
+td {
+    border: 1px solid #000;
+    /* Border around table cells */
+    padding: 8px;
+    /* Add padding to the table cells for spacing */
+    text-align: left;
+    /* Adjust text alignment as needed */
 }
 
-#placeOrder{
+#placeOrder {
     margin-top: 20px;
     float: right;
 }
+
 button {
-    background-color: #1e7898; /* Green */
+    background-color: #1e7898;
+    /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -53,4 +63,4 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
