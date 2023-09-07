@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>Lab 3</title>
+     <link href="lab3.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="logo.webp" alt="Logo" height="50" width="50">
+        <span id="main">Welcome, Srijana</span>
+        <span>LogOut</span>
+
+    </header>
+    <section class="section-table">
+        <h2>Product List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Actions</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Node.js</td>
+                    <td>9.99</td>
+                    <td>8</td>
+                    <td> <button id="addToCart">Add</button></td></td>
+                </tr>
+                <tr>
+                    <td>React</td>
+                    <td>19.99</td>
+                    <td>5</td>
+                    <td> <button id="addToCart">Add</button></td></td>
+                </tr>
+                <tr>
+                    <td>Angular</td>
+                    <td>29.99</td>
+                    <td>13</td>
+                    <td> <button id="addToCart">Add</button></td></td>
+                </tr>
+
+            </tbody>
+
+
+        </table>
+
+    </section>
+
+
+    <section class="section-table">
+        <h2>Your Shopping Cart</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+
+
+            <tbody>
+                <tr>
+                    <td>Node.js</td>
+                    <td>9.99</td>
+                    <td>9.99</td>
+                    <td>
+                        <button id="decrease">-</button>
+                        <input type="number" id="quantity" name="quantity" value="1">
+                        <button id="increase">+</button></td>
+                </tr>
+
+                <tr>
+                    <td>React</td>
+                    <td>29.99</td>
+                    <td>290.99</td>
+                    <td>
+                        <button id="decrease">-</button>
+                        <input type="number" id="quantity" name="quantity" value="10">
+                        <button id="increase">+</button></td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total :</td>
+                    <td>300.98</td>
+                </tr>
+
+            </tfoot>
+
+        </table>
+
+    </section>
+
+    <section>
+        <button id="placeOrder">PlaceOrder</button>
+    </section>
+
+
+
+    <footer>
+        <a href="https://validator.w3.org/nu/?doc=https://srijanalama2.github.io/lab3.html" > 
+            <img src="htmlchecker.png" alt="html validator" height="50" width="50"> 
+        </a> 
+
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://srijanalama2.github.io/" > 
+            <img src="css_checker.png" alt="css validator" height="50" width="50"> 
+        </a> 
+    </footer>
+
+</body>
+
+</html>
