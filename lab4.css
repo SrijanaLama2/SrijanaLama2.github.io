@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+}
+
+header {
+
+    padding: 12px;
+    background-color: #a2cbbc;
+
+}
+
+footer {
+    padding: 12px;
+    background-color: #e3e3e3;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+
+}
+
+header select {
+    margin-left: 10px;
+    border: none;
+    background-color: #a2cbbc;
+}
+
+.row {
+    background: #f6f6f6;
+    overflow: hidden;
+    padding: 10px;
+    height: calc(100vh - 30px)
+}
+
+.col {
+    float: left;
+    width: 50%;
+    /*  */
+}
+
+.col div {
+    margin: 30px;
+  
+}
+
+.col div label {
+    font-weight: bold;
+    width: 300px;
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+}
+a {
+    color: black;
+}
+
+.col input[type="text"],
+.col textarea,
+.col select {
+    width: calc(100% - 330px);
+    box-sizing: border-box;
+}
+.col input[type="text"],
+.col select {
+    height: 30px;
+}
+.col textarea {
+    height: 80px;
+}
+
+.label-asterick::after {
+    content: ' *';
+    color: red;
+}
+
+footer button {
+    background-color: #a2cbbc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.checkbox-wrapper{
+    margin-left : 285px !important;
+    margin-top: 0px !important;
+   
+}
+.checkbox-wrapper div {  
+    display: block;
+    margin-bottom: 5px; /* Add margin to separate each pair */
+}
+  

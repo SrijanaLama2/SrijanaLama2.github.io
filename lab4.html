@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Lab 4</title>
+    <meta charset="UTF-8">
+    <link href="lab4.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+    <header>
+        <span><b>WorkShop Registartion</b></span>
+        <select name="moreActions">
+            <option selected>More Actions</option>
+        </select>
+
+    </header>
+    <form>
+        <div class="row">
+            <div class="col">
+                <div>
+                    <a href="#"> Register now while seats are available ! </a>
+                </div>
+
+                <div>
+                    <label id="firstName" class="label-asterick">First Name</label>
+                    <input type="text" id="IDofInput" />
+
+                </div>
+                <div>
+                    <label id="lastName" class="label-asterick">Last Name</label>
+                    <input type="text" id="lastNameInput" />
+
+                </div>
+                <div>
+                    <label id="companyInstitution" class="label-asterick">Company Institution</label>
+                    <input type="text" id="companyInstitutionInput" />
+
+                </div>
+                <div>
+                    <label id="address" class="label-asterick">Address</label>
+                    <textarea  id="addressInput" rows="25" cols="10">
+                    </textarea>
+
+                </div>
+                <div>
+                    <label id="city">City</label>
+                    <input type="text" id="cityInput" />
+
+                </div>
+                <div>
+                    <label id="state">State /Province /Region</label>
+                    <select name="stateOption">
+                        <option selected>Select</option>
+
+                    </select>
+
+                </div>
+                <div>
+                    <label id="country">Country</label>
+                    <select name="countryOption">
+                        <option selected>Select</option>
+
+                    </select>
+
+                </div>
+                <div>
+                    <label id="email" class="label-asterick">Email</label>
+                    <input type="text" id="emailInput" />
+
+                </div>
+                <div>
+                    <label id="phoneNUmber" class="label-asterick">Phone Number</label>
+                    <input type="text" id="phoneInput" />
+
+                </div>
+
+
+
+            </div>
+            <div class="col">
+                <div>
+                    <a href="#"> Lunch </a>
+                </div>
+                <div>
+                    <label id="mealPreference">Meal Preference</label>
+                    <select name="mealPreferenceOption">
+                        <option selected>Vegeterian</option>
+                        <option>Non Vegeterian</option>
+                    </select>
+
+                </div>
+                <div>
+                    <a href="#"> Payment Details </a>
+                </div>
+                <div class="check-group">
+                    <label>Payment Mode</label>
+                   
+                    <div class="checkbox-wrapper">
+                        <div>
+                            <input type="checkbox" name="cash" class="custom-checkbox" />
+                            <span>Cash</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="cheque" class="custom-checkbox" />
+                            <span>Cheque</span>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="demanddraft" class="custom-checkbox" />
+                            <span>Demand Draft</span>
+                        </div>
+                    </div>
+                 
+
+                  
+                </div>
+
+                <div>
+                    <label id="chNo">DD/Cheque No</label>
+                    <input type="text" id="chNoInput" />
+
+                </div>
+                <div>
+                    <label id="drawnOn">Drawn On(Bank Name)</label>
+                    <input type="text" id="drawnOnInput" />
+
+                </div>
+                <div>
+                    <label id="payable">Payable at</label>
+                    <input type="text" id="payableAtInput" />
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </form>
+    <footer>
+
+
+        <button id="submit">Submit</button>
+        <button id="reset">Reset</button>
+
+    </footer>
+
+
+</body>
+
+
+</html>
